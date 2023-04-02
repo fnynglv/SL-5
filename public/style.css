@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Miniver&family=Montserrat+Alternates:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap');
+
+:root{
+    /* font */
+    --libre-font: 'Libre Barcode 39 Text', cursive;
+    --miniver-font: 'Miniver', cursive;
+    --montserrat-font: 'Montserrat Alternates', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+
+    /* color */
+    --coklatbg:#2D2927;
+    --coklatmuda: #574C4A;
+    --kremtulisan: #F7CCAC;
+    --kreamterang: #F7E9DD;
+    --garis: #817067;
+}
+.navbarr{
+    /* justify-content: space-evenly; */
+    background-color: var(--coklatbg);
+}
+
+.navbarr a{
+    text-decoration: underline;
+    color: var(--kremtulisan);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* section 1 */
+.foto{
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.Home{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.bg-cklt{
+    background-color: var(--coklatbg);
+}
+
+.bg-tulis{
+    margin: 92px;
+    color: white;
+}
+
+.miniver{
+    font-family: 'Miniver', cursive;
+}
+
+.libre{
+    /* display: none; */
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+.font-115{
+    font-size: 115px;
+}
+
+.montserrat{
+    font-family: var(--montserrat-font);
+}
+.font-24{
+    font-size: 24px;
+}
+.button{
+    width: 247px;
+    height: 53px;
+    background-color: var(--kremtulisan);
+    color: var(--coklatbg);
+    align-items: center;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+/* section 2 */
+.About{
+    padding: 105px 62px;
+}
+
+.header{
+    padding:40px 85px;
+}
+.cklt-tulis{
+    color: var(--garis);
+    font-weight: 600;
+}
+.more{
+    color: #4c3d35;
+    font-weight: 700;
+}
+
+.paragraf{
+    color: #694225;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.Hmotto{
+    color: #694225;
+    font-weight: 700;
+}
+
+.motto{
+    color: #694225;
+    font-weight: 500;
+    line-height: 24,4px;
+}
+
+.font-48{
+    font-size:48px;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.socialmedia{
+    color: white;
+    background-color: var(--coklatbg);
+    padding: auto;
+    margin-top: 64px;
+    width: 500px;
+    height: 70px;
+    align-items: center;
+    gap: 109px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.depan, .belakang{
+    margin: auto;
+    width: 523px;
+    height: 3px;
+    background-color: var(--coklatmuda);
+}
+
+.Pembatas{
+    /* border: 2px solid red; */
+    gap: 10px;
+    display: flex;
+    font-family: 'Noto Serif KR', serif;
+    color: var(--coklatbg);
+}
+.Pembatas h1{
+    font-size: 50px;
+}
+
+/* section 3 */
+#History{
+    padding: 20px;
+    width: 1350px;
+    height: auto;
+    background-color: var(--kreamterang);
+    border-radius: 50px;
+    margin:auto;
+}
+
+.font{
+    text-decoration: underline;
+    font-family: var(--montserrat-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+}
+
+.tulisan{
+    font-family: var(--montserrat-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* section 4 skill*/
+.fontskills{
+    color: white;
+    text-decoration: underline;
+}
+
+.containskil{
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+#Skills{
+    /* margin-top: 700px; */
+    width: 1350px;
+    height: auto;
+    background-color: var(--coklatmuda);
+    border-radius: 50px;
+    margin:auto;
+}
+.lower-section{
+    display: flex;
+    justify-content: center;
+}
+
+/* Moodbooster */
+.padding90{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.fontskill1{
+    font-family: var(--montserrat-font);
+    color: #4B3F3A;
+}
+.fontskill{
+    text-decoration: underline;
+    font-family: var(--montserrat-font);
+    color: #4B3F3A;
+    padding-bottom: 50px;
+}
+
+.moods{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+.texting{
+    font-family: var(--montserrat-font);
+    color: #4B3F3A;
+}
+
+.sosmed{
+    color: var(--coklatbg);
+    margin-top: 64px;
+    align-items: center;
+    gap: 109px;
+    display: flex;
+    justify-content: center;
+}
+
+.depan, .belakang{
+    margin: auto;
+    width: 523px;
+    height: 2px;
+    background-color: var(--coklatbg);
+}
+
+.endingrow{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    gap: 20px;
+    display: flex;
+    font-family: var(--miniver-font);
+    color: var(--coklatbg);
+}
+
+.copyright{
+    height: 30px;
+    background-color: #2D2927;
+    color: var(--kreamterang);
+    /* margin-bottom: 0; */
+}
