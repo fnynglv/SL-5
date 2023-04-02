@@ -1,4 +1,4 @@
-# Self Leraning Web Programming
+# Self Learning Web Programming
 
 Nama  : Fanny Angelia Valentina <br>
 Kelas : PPTI 12 <br>
