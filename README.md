@@ -1,8 +1,8 @@
 # Self Leraning Web Programming
 
-Nama  : Fanny Angelia Valentina
-Kelas : PPTI 12
-NIM   : 2502041161
+Nama  : Fanny Angelia Valentina <br>
+Kelas : PPTI 12 <br>
+NIM   : 2502041161 <br>
 
 # Deskripsi 
 ## Web Profile
