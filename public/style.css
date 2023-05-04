@@ -223,15 +223,43 @@
     text-decoration: underline;
     font-family: var(--montserrat-font);
     color: #4B3F3A;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
+
+/* .boyband{
+    height: 10px;
+} */
 
 .moods{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 50px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
+.gold{
+    background-color: goldenrod;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.red{
+    background-color: red;
+}
+
+.moods a{
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.moods a img{
+    object-fit: cover;
+    border-radius: 10px;
+}
 .texting{
     font-family: var(--montserrat-font);
     color: #4B3F3A;
